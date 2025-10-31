@@ -2,6 +2,24 @@
 
 A comprehensive geotechnical engineering web application for analyzing Cone Penetration Test (CPT) data and calculating settlement using Settle3 correlations and methodologies.
 
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/stevech-AI/cpt-analysis-settlement-calculator.git
+cd cpt-analysis-settlement-calculator
+
+# Install dependencies
+pip install .
+
+# Run the application
+streamlit run app.py
+```
+
+The app will open at `http://localhost:8501` in your browser.
+
+📖 **For detailed installation instructions, see [INSTALL.md](INSTALL.md)**
+
 ## Features
 
 ### 1. CPT Data Processing
