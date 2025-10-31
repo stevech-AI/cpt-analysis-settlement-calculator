@@ -37,16 +37,16 @@ localPort = 5000
 externalPort = 80
 
 [[ports]]
+localPort = 35449
+externalPort = 3002
+
+[[ports]]
 localPort = 35513
 externalPort = 3000
 
 [[ports]]
 localPort = 37333
 externalPort = 3001
-
-[[ports]]
-localPort = 40455
-externalPort = 3002
 
 [agent]
 integrations = ["github:1.0.0"]
