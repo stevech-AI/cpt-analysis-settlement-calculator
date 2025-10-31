@@ -34,6 +34,28 @@ streamlit run app.py
 
 📖 **For detailed installation instructions and troubleshooting, see [INSTALL.md](INSTALL.md)**
 
+---
+
+## 🧪 Testing with Sample Data
+
+The repository includes real CPT test data files in the `test_data/` folder:
+
+```bash
+# After running the app, upload any of these files:
+test_data/sample_cpt1.txt  # 1 layer, uniform soft soil
+test_data/sample_cpt2.txt  # 5 layers, 1,930mm settlement ⭐ Recommended
+test_data/sample_cpt3.txt  # 1 layer, shorter profile
+```
+
+**Quick Test:**
+1. Start the app: `streamlit run app.py`
+2. Go to "📤 Upload CPT Data" tab
+3. Upload `test_data/sample_cpt2.txt`
+4. Navigate to "Settlement Analysis" tab
+5. Click "Calculate Settlement" to see ~1,930mm total settlement results!
+
+See [test_data/README.md](test_data/README.md) for detailed information about each sample file.
+
 ## Features
 
 ### 1. CPT Data Processing
@@ -128,11 +150,16 @@ Use the sidebar to set:
 - View immediate and consolidation settlement
 - Export settlement results and PDF reports
 
-## Sample Data
+## Test Data Files
 
-Sample CPT data files are included:
-- `Sample_CPT_01.xlsx` - Typical multi-layer soil profile
-- `Sample_CPT_02.xlsx` - Alternative soil profile
+Real CPT field data is included in the `test_data/` folder for testing:
+- `sample_cpt1.txt` - 1 layer organic clay profile (0mm settlement)
+- `sample_cpt2.txt` - 5 layer profile showing significant settlement (1,930mm) ⭐
+- `sample_cpt3.txt` - Single layer profile with shorter depth range (0mm settlement)
+
+All files are tab-delimited format: Depth | qc | fs | u2
+
+See [test_data/README.md](test_data/README.md) for complete details.
 
 ## Methodology
 
