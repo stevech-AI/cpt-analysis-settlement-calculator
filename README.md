@@ -4,21 +4,35 @@ A comprehensive geotechnical engineering web application for analyzing Cone Pene
 
 ## 🚀 Quick Start
 
+### Option 1: Simple Installation (Recommended)
 ```bash
-# Clone the repository
+# 1. Clone the repository
 git clone https://github.com/stevech-AI/cpt-analysis-settlement-calculator.git
 cd cpt-analysis-settlement-calculator
 
-# Install dependencies
-pip install .
+# 2. Install dependencies
+pip install -r requirements.txt
 
-# Run the application
+# 3. Run the application
 streamlit run app.py
 ```
 
-The app will open at `http://localhost:8501` in your browser.
+### Option 2: Using pyproject.toml
+```bash
+# 1. Clone the repository
+git clone https://github.com/stevech-AI/cpt-analysis-settlement-calculator.git
+cd cpt-analysis-settlement-calculator
 
-📖 **For detailed installation instructions, see [INSTALL.md](INSTALL.md)**
+# 2. Install dependencies
+pip install .
+
+# 3. Run the application
+streamlit run app.py
+```
+
+**That's it!** The app will automatically open at `http://localhost:8501` in your browser.
+
+📖 **For detailed installation instructions and troubleshooting, see [INSTALL.md](INSTALL.md)**
 
 ## Features
 
